@@ -25,7 +25,7 @@ public class SplitWise {
 		Expense.expense(users.get(0), users, EXPENSETYPE.EQUAL, 1000f, null);
 
 		Float[] cuts = { 370f, 850f };
-		Expense.expense(users.get(0), users, EXPENSETYPE.EXACT, 1000f, cuts);
+		Expense.expense(users.get(0), users, EXPENSETYPE.EXACT, 0f, cuts);
 		// Expense.expense(users.get(0), users, EXPENSETYPE.EQUAL, 1500f,null);
 		show();
 		//show(users.get(1));
